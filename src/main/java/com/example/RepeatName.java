@@ -1,6 +1,6 @@
 package com.example;
 
-i4mport java.util.Scanner;
+import java.util.Scanner;
 
 class display
 {
@@ -16,16 +16,18 @@ System.out.println("\n\n\nUsing For Loop");
         System.out.println("Ganesh");
     }
 i=0;
-System.out.println("while");
+System.out.println("\n\n\nwhile");
     while(i<n){
         
         System.out.println("Ganesh");
+        i++;
     }
     i=0;
-    System.out.println("dowhile");
+    System.out.println("\n\n\n\ndowhile");
 
     do
-    {System.out.println("Ganesh");}
+    {System.out.println("Ganesh");
+i++;}
     while(i<n);
   }
 }
